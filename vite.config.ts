@@ -11,6 +11,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
   ],
+  base: '/Accessible-Memory-Game/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
