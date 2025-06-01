@@ -526,7 +526,7 @@ export const AccessibleMemoryGame = () => {
       <div className="min-h-screen bg-gradient-to-br from-purple-200 via-pink-200 to-blue-200 flex items-center justify-center">
         <div className="text-center">
           <img 
-            src="/favicon.ico" 
+            src={`${import.meta.env.BASE_URL}favicon.ico`}
             alt="Memory Game Icon" 
             className="w-24 h-24 mx-auto mb-8 animate-bounce"
             style={{ animationDuration: '2s' }}
